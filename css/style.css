@@ -1,0 +1,47 @@
+
+.bg-light {
+    background-color: pink!important;
+}body {
+  background: #FFCC01;
+}
+h1 {
+  color : purple;
+background-color: grey;
+text-align: center;
+}
+p,li {
+  font-size: : 2.4em;
+}
+.facts {
+  background: green;
+}
+.important {
+  color: red
+}
+.col-md {
+  background: pink;
+  border: 5px dotted: grey;
+}
+
+.btn{
+  background: green;
+  color: white;
+  padding:9px 40px;
+  width: 100%;
+
+}
+.btn:hover {
+  background:pink;
+  color: blue;
+}
+@media only screen and (max-width: 600px) {
+body {
+  background: purple;
+}
+img {
+  width: 100%
+}
+.facts li {
+  float: none;
+  width: 33%;
+}
